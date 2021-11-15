@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TesteLayout</string>
+    <string name="action_settings">Configurações</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primeiro Fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Voltar</string>
+
+    <string name="hello_first_fragment">Olá primeiro fragmento</string>
+    <string name="hello_second_fragment">Olá segundo fragmento. Arg: %1$s</string>
+    <string name="op_o_2">Opção 2</string>
+    <string name="click_me">click me</string>
+</resources>

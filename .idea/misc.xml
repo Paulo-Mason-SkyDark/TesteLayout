@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dani_Lee/.gradle/caches/transforms-3/d76f35a08c08216004feed386d7db8d0/transformed/appcompat-1.2.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/layout/content_main.xml" value="0.12436676798378926" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/layout/fragment_first.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/layout/fragment_second.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/layout/layout_for_teste.xml" value="0.22" />
+        <entry key="..\:/Users/Dani_Lee/TesteLayout/app/src/main/res/menu/menu_main.xml" value="0.16018518518518518" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

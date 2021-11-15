@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Views!"
+        android:textColor="#12FF88"
+        android:textSize="28sp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/hellow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textColor="#12ff88"
+        android:textSize="28sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="check it!"
+        android:textColor="#12ff88"
+        android:textSize="28sp" />
+
+    <ToggleButton
+        android:id="@+id/tbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#12FF88"
+        android:textOff="Desligado"
+        android:textOn="Ligado"
+        android:textSize="28sp"
+        android:textStyle="italic|bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/r1button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opção 1"
+            android:textColor="#12FF88"
+            android:textSize="28sp"
+            android:textStyle="italic|bold" />
+
+        <RadioButton
+            android:id="@+id/r2button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/op_o_2"
+            android:textColor="#12FF88"
+            android:textSize="28sp"
+            android:textStyle="italic|bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_me"
+        android:textColor="#ff0000"
+        android:textSize="50px"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:translationX="160sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="180"
+        android:src="@mipmap/ic_launcher"
+        android:translationX="160sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
